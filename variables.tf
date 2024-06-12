@@ -1,11 +1,15 @@
 variable "tags" {
   type        = map(string)
   description = "The labels to assign to the resources"
+  default = {
+    "name" = "value"
+  }
 }
 
 variable "name_prefix" {
   type        = string
   description = "The prefix used in all of the resource names"
+  default     = "ns"
 }
 
 variable "cidr" {

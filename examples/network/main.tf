@@ -1,7 +1,5 @@
 module "network" {
-  source = "../modules/vpc"
-
-  name_prefix = local.name_prefix
+  source = "../../"
 
   cidr = "20.10.0.0/16"
 
@@ -10,6 +8,4 @@ module "network" {
   database_subnets = ["20.10.21.0/24", "20.10.22.0/24", "20.10.23.0/24"]
 
   enable_vpc_endpoints = false
-
-  tags = local.tags
 }
