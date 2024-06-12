@@ -6,7 +6,7 @@ A Terraform module for creating an AWS VPC.
 
 ```hcl
 module "vpc" {
-  source  = "github.com/your-username/terraform-aws-nubo-modules//vpc"
+  source  = "github.com/your-username/terraform-aws-vpc//vpc"
   version = "1.0.0"
 
   # Add required variables here
