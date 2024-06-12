@@ -5,8 +5,8 @@ A Terraform module for creating an AWS VPC.
 ## Usage
 
 ```hcl
-module "vpc" {
-  source  = "github.com/your-username/terraform-aws-vpc//vpc"
+module "terraform-aws-vpc" {
+  source  = "github.com/your-username/terraform-aws-vpc"
   version = "1.0.0"
 
   # Add required variables here
