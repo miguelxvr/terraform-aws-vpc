@@ -1,0 +1,10 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+.terraform.lock.hcl
+
+# Ignore editor files
+*.swp
+*.swo
